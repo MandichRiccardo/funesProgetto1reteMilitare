@@ -1,8 +1,6 @@
 git add .
 git status
-nomeCommit=`date "+%Y %m %d %H:%M"`
-nomeCommit="aggiornamento "$nomeCommit
-git commit -m "$nomeCommit"
+git commit -m "aggiornamento `date "+%Y %m %d %H:%M"`"
 clear
 git push
 sleep 5
